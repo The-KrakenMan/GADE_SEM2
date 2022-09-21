@@ -5,7 +5,7 @@ using UnityEngine;
 public class Track_Manager : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    /* void Start()
     {
         
     }
@@ -24,5 +24,5 @@ public class Track_Manager : MonoBehaviour
         {
             Debug.Log(checkpointSingleTr);
         }
-    }
+    } */
 }
