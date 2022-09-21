@@ -1,0 +1,34 @@
+{
+  "npcCharacters": [
+    {
+      "npcName": "Alice",
+      "Dialogue1": "Welcome Racer!",
+      "Dialogue2": "Fuel up your engines",
+      "Dialogue3": "Press 'W' to Accelerate",
+      "Dialogue4": "'S' is to reverse and 'A' and 'D' to turn"
+
+    },
+    {
+      "npcName": "Gary",
+      "Dialogue1": "Good Luck Twerp",
+      "Dialogue2": "You're gonna have to be pretty fast to beat the Gary"
+    },
+    {
+      "npcName": "Alice",
+      "Dialogue": "Why are you talking in third person?"
+    },
+    {
+      "npcName": "Gary",
+      "Dialogue": "DO NOT QUESTION THE GARY!"
+    },
+    {
+      "npcName": "Alice",
+      "Dialogue1": "Don't mind him, you'll put him in place in due time",
+      "Dialogue2": "But first we have to get you warmed up!",
+      "Dialogue3": "Pass through all the checkpoints on the path",
+      "Dialogue4": "And it would be in your best interest not to fall of as well"
+    }
+
+
+  ]
+}
