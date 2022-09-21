@@ -22,7 +22,8 @@ public class CheckPoints : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Hit");
+            other.GetComponent<Track_Manager>().CheckpointHIT();
+            Destroy(this.gameObject);
         }
         
     }

@@ -39,4 +39,16 @@ public class Track_Manager : MonoBehaviour
         Start.gameObject.SetActive(true);
         
     }
+
+    public void CheckpointUpdate()
+    {
+
+    }
+
+    public void CheckpointHIT()
+    {
+        CheckPoints Next = new CheckPoints();
+        Next = numbers.Pop();
+        Next.gameObject.SetActive(true); 
+    }
 }
