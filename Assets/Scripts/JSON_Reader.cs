@@ -13,9 +13,7 @@ public class JSON_Reader : MonoBehaviour
 
     void Start()
     {
-        SetDialogue();
-        NextDialogue();
-     
+        SetDialogue();    
     }
 
     private void SetDialogue()
@@ -35,6 +33,7 @@ public class JSON_Reader : MonoBehaviour
     {
         Output.text = SceneDialogue.Peek();
         SceneDialogue.Dequeue();
+        Debug.Log("Next");
     }
 
     // Update is called once per frame

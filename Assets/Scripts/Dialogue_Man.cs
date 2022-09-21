@@ -7,25 +7,22 @@ public class Dialogue_Man : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public GameObject SceneDialogue;
+   
     int Counter = 0;
     public void OnClick()
     {
- 
-        if (Counter < 5)
+        Debug.Log("Clicked");
+        Counter++;
+        if (Counter  < 5)
         {
-            SceneDialogue.GetComponent<JSON_Reader>().NextDialogue();
-            Counter++;
+            this.GetComponent<JSON_Reader>().NextDialogue();
         }
         else
         {
-            SceneManager.LoadScene("Check Point_Race");
+            SceneManager.LoadScene("CheckPoint_Race");
         }
         
     }
 
-    public void Activate()
-    {
-        this.Activate();
-    }
+   
 }
