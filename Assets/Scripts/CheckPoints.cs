@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckPoints : MonoBehaviour
 {
-    
+    public Timer CheckpointTime;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +20,12 @@ public class CheckPoints : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+            
         if (other.gameObject.tag == "Player")
         {
             other.GetComponent<Track_Manager>().CheckpointHIT();
+            CheckpointTime.CheckpointTimerUpdate();
+            
             Destroy(this.gameObject);
         }
         

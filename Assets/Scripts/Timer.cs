@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public float TimeLeft;
     public bool TimerOn = false;
     public Text Timertext;
+    public bool AddTime = false;
 
     // Start is called before the first frame update
     void Start()
@@ -42,5 +43,12 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(currentTime % 60);
 
         Timertext.text = string.Format("{0:00} : {1:00}", minutes, seconds);
+
+        
+    }
+
+    public void CheckpointTimerUpdate()
+    {
+        TimeLeft = TimeLeft + 10;
     }
 }
