@@ -2,10 +2,10 @@
   "npcCharacters": [
     {
       "npcName": "Alice",
-      "Dialogue1": "Welcome Racer!",
+      "Dialogue1": "Welcome to the Backwards Circuit, Racer!",
       "Dialogue2": "Fuel up your engines",
-      "Dialogue3": "Press 'W' to Accelerate",
-      "Dialogue4": "'S' is to reverse and 'A' and 'D' to turn"
+      "Dialogue3": "Press 'S' to Accelerate",
+      "Dialogue4": "'W' is to reverse and 'A' and 'D' to turn"
 
     },
     {
