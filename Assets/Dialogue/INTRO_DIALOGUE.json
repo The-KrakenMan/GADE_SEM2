@@ -2,16 +2,11 @@
   "npcCharacters": [
     {
       "npcName": "Alice",
-      "Dialogue1": "Welcome to the Backwards Circuit, Racer!",
-      "Dialogue2": "Fuel up your engines",
-      "Dialogue3": "Press 'S' to Accelerate",
-      "Dialogue4": "'W' is to reverse and 'A' and 'D' to turn"
-
+      "Dialogue": "Welcome to the Backwards Circuit, Racer!                     Press 'S' to Accelerate.                                                     'W' is to reverse and 'A' and 'D' to turn"
     },
     {
       "npcName": "Gary",
-      "Dialogue1": "Good Luck Twerp",
-      "Dialogue2": "You're gonna have to be pretty fast to beat the Gary"
+      "Dialogue": "Good Luck Twerp!                                             You're gonna have to be pretty fast to beat the Gary"
     },
     {
       "npcName": "Alice",
@@ -23,10 +18,7 @@
     },
     {
       "npcName": "Alice",
-      "Dialogue1": "Don't mind him, you'll put him in place in due time",
-      "Dialogue2": "But first we have to get you warmed up!",
-      "Dialogue3": "Pass through all the checkpoints on the path",
-      "Dialogue4": "And it would be in your best interest not to fall of as well"
+      "Dialogue":"Don't mind him, you'll put him in place in due time, but first we have to get you warmed up!                               Pass through all the checkpoints on the path , and it would be in your best interest not to fall off as well"
     }
 
 

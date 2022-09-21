@@ -5,6 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class NPC
 {
-    public string Name;
+    public string npcName;
     public string Dialogue;
 }
