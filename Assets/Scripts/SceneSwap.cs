@@ -22,6 +22,10 @@ public class SceneSwap : MonoBehaviour
         SceneManager.LoadScene("Race_Choosing");
     }
 
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
     // Update is called once per frame
 
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float speed = .1f;
+    public int CheckPointsCleared = 0;
 
     // Start is called before the first frame update
     void Start()

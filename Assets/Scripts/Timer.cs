@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     public bool TimerOn = false;
     public Text Timertext;
     public bool AddTime = false;
+    public GameObject DeathScreen;
 
     // Start is called before the first frame update
     void Start()
@@ -28,12 +29,13 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                Debug.Log("Times up");
+                Timertext.text = "You Lose";
                 TimeLeft = 0;
                 TimerOn = false;
             }
         }
     }
+
 
     void updateTimer(float currentTime)
     {
