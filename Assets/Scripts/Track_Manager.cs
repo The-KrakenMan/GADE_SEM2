@@ -22,7 +22,7 @@ public class Track_Manager : MonoBehaviour
 
     public void CheckpointStart()
     {
-       /* CheckPoints Start = new CheckPoints();
+       CheckPoints Start = new CheckPoints();
 
         
         numbers.Push(ger[8]);
@@ -36,7 +36,7 @@ public class Track_Manager : MonoBehaviour
         numbers.Push(ger[0]);
 
         Start = numbers.Pop();
-        Start.gameObject.SetActive(true);*/
+        Start.gameObject.SetActive(true);
         
     }
 
